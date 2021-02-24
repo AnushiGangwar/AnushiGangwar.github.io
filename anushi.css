@@ -1,0 +1,310 @@
+html,body {
+    margin:0px;
+    padding:0px;
+    
+}
+#bod{
+    height: 500px;
+}
+
+
+#lao{
+    background-color: rgb(27, 27, 27);
+    
+    widows: 1440px;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    
+}
+#hori {
+    background-color: rgb(220, 20, 60);
+    height:500px;
+    width: 125px;
+    z-index: 2;
+    position:relative;
+    color:white;
+    left: 1224px ;
+}
+#photo {
+    background-image: url('anushi1.jpg');
+    height:375px;
+    width:483px;
+    border-radius: 9px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top:-438px;
+    left:804px;
+    position: relative;
+    z-index: 3;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 30px aqua;
+    
+
+}
+
+
+.containers{
+    
+    height: 415px;
+    background-color: rgb(5, 5, 5 );
+    
+    color:white;
+    z-index: 6;
+    position: relative;
+    width: 483px;
+    top: -753px;
+    left: 64px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    
+    
+}
+.rows {
+   
+    justify-content: center;
+    left: 72px;
+    font-family: cursive;
+    border: 0px solid rgb(5, 5,5);
+    margin-left: 10px;
+    
+
+}
+
+#hi {
+    font-size: 20px;
+    font-family:cursive;
+    margin-top: 40px;
+    border:1px solid rgba(0, 128, 0, 0);
+    position: relative;
+    z-index: 10;
+    top: 6px;
+}
+
+#anu {
+    font-size: 40px;
+    font-family: cursive;
+    position: relative;
+    left: 72px;
+    color: aqua;
+    letter-spacing: 3px;
+    
+    margin-top: -50px;
+
+    
+}
+#crazy {
+    position :relative;
+    top: -35px;
+    font-weight: lighter;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: gray;
+
+}
+#find {
+    position: relative;
+    top: -18px;
+
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#icons {
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+    top: -45px;
+}
+.icon {
+    color: crimson;
+    margin: 10px;
+    font-size: 25px;
+    position: relative;
+    bottom: -30px;
+    
+    
+}
+
+
+
+#scircle {
+
+    
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color:crimson ;
+    
+    z-index:7 ;
+    position: relative;
+    top:-1000px;
+    left: 45px;
+    
+    
+}
+
+#circleb {
+    
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    z-index:6;
+    position: relative;
+    top:-1150px;
+    left: 45px;
+}
+
+.dots{
+    border: 3px dotted rgb(34, 33, 33);
+    height:3px;
+    width: 170px;
+    margin: 3px;
+    position:relative;
+    z-index: 7 ;
+    top: -1300px;
+    left: 145px;
+}
+
+nav {
+    
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-b
+{
+    border-left:1px solid rgb(66, 66, 66);
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: -1430px;
+    color: rgb(167, 164, 165);
+    z-index: 4;
+    left: 55px;
+    background-color: rgb(27, 27, 27);
+
+}
+.line {
+    
+    height: 3px;
+    width:200px;
+    background-color: rgb(5, 5,5);
+    
+}
+#line-position {
+    position: relative;
+    
+    
+
+}
+#gline-position{
+    position: relative;
+    width: 400px;
+    
+}
+ @keyframes move {
+     0% { background-color: aqua;
+         
+    }
+    2%{ width:0px;
+        box-shadow: 0 0 50px aqua;    
+    }
+
+    100% {background-color: aqua;
+        width: 200px;
+        box-shadow: 0 0 50 aqua;
+        background : linear-gradient(90deg,transparent , aqua);
+    }
+ }
+.d-line {
+
+height: 3px;
+
+border-radius: 40%;
+width: 30px;
+position: relative;
+animation-name: move;
+animation-duration: 2s;
+animation-iteration-count: 3;
+}
+
+.gline {
+    
+    height: 3px;
+    width:250px;
+    background-color: rgb(5, 5,5);
+    position: relative;
+    top: -45px;
+    left: -3px;
+    
+}
+
+
+}
+#gline-position{
+    position: relative;
+    
+}
+ @keyframes moves {
+     0% { background-color: aqua;
+         
+    }
+    2%{ width:0px;
+        box-shadow: 0 0 50px aqua;    
+    
+    
+    
+    
+    }
+
+    100% {background-color: aqua;
+        width: 250px;
+        box-shadow: 0 0 50 aqua;
+        background : linear-gradient(90deg,transparent , aqua);
+    }
+ }
+.gd-line {
+
+height: 3px;
+
+border-radius: 40%;
+width: 30px;
+position: relative;
+animation-name: moves;
+animation-duration: 2s;
+animation-iteration-count: 3;
+}
+ @keyframes fade{
+     from{}
+ }
+butto {
+    position: relative;
+    top: -1416px;
+    left:20px;
+    color: cadetblue;
+    font-style: italic;
+    font-family: 'Satisfy', cursive;
+    left: 500px;
+    width: 200px;
+    height: 60px;
+    z-index: 10;
+    font-size: 50px;
+    
+    background-color: rgb(5, 5,5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
